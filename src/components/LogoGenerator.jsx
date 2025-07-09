@@ -56,7 +56,6 @@ const LogoGenerator = () => {
           <p className="text-gray-300 text-lg">Enter your brand details to generate custom logos</p>
         </div>
 
-        {/* Input Section */}
         <div className="max-w-2xl mx-auto mb-12">
           <div className="bg-gray-900 p-8 rounded-xl border border-gray-700">
             <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -97,7 +96,6 @@ const LogoGenerator = () => {
           </div>
         </div>
 
-        {/* Generated Logos */}
         {showLogos && (
           <div className="max-w-6xl mx-auto">
             <h3 className="text-2xl font-bold text-center mb-8">Generated Logos</h3>
@@ -131,7 +129,6 @@ const LogoGenerator = () => {
           </div>
         )}
 
-        {/* Features */}
         <div className="grid md:grid-cols-3 gap-8 mt-16">
           <div className="text-center">
             <Palette className="h-12 w-12 text-blue-500 mx-auto mb-4" />

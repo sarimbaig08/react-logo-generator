@@ -14,7 +14,6 @@ const Header = () => {
             <h1 className="text-2xl font-bold text-white">LogoCraft</h1>
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <a href="#home" className="text-gray-300 hover:text-white transition-colors">
               Home
@@ -30,7 +29,6 @@ const Header = () => {
             </a>
           </nav>
 
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-gray-300 hover:text-white">
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -38,7 +36,6 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-gray-700">
