@@ -27,7 +27,7 @@ const LogoGenerator = () => {
       {
         method: "POST",
         headers: {
-          Authorization: "Bearer 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",
+          Authorization: "Bearer ",
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ inputs: prompt }),
