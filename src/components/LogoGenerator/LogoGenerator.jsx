@@ -22,17 +22,7 @@ const LogoGenerator = () => {
   ];
 
   const generateLogo = async (prompt) => {
-    const response = await fetch(
-      "",
-      {
-        method: "POST",
-        headers: {
-          Authorization: "Bearer ",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ inputs: prompt }),
-      }
-    );
+
     const blob = await response.blob();
     return URL.createObjectURL(blob);
   };
