@@ -11,7 +11,7 @@ const Header = () => {
       <div className="header-container">
         <div className="header-content">
           <div className="header-logo">
-            <h1>LogoCraft</h1>
+            <h1>Logo</h1>
           </div>
 
           <nav className="header-nav">
